@@ -81,7 +81,7 @@ for(i=0; i<n; i++)
 for(i=0 ; i,n ; i++)
 {
 	tat[i] = c[i] - a[i];
-	t+tat = t_tat + tat[i];
+	t_tat = t_tat + tat[i];
 	wt[i] = tat[i] - bt[i];
 	t_wt += wt[i];
 }
